@@ -4,3 +4,7 @@ long = 21
 [thresholds]
 down = -0.025
 up = 0.025
+
+[stop]
+loss = 0.2
+type = 'trailing'

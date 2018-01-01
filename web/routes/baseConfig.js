@@ -21,9 +21,9 @@ config.tradingAdvisor = {
 }
 
 config.stop = {
-  enabled: false,
+  enabled: true,
   loss: 0.2,
-  type: 'fixed'
+  type: 'trailing'
 }
 
 config.candleWriter = {
